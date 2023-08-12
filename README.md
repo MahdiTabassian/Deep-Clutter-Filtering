@@ -11,3 +11,7 @@
 - modifying the id and tr-val-te data preparation function by remoing the for loops as much as possible
   - for this, we need to make sure that the images are organized in the sub-direcotries as considered in the above function
 - renaming the variables that do not make sense and are not suitable  
+
+
+https://github.com/mtab2020/Deep_Clutter_Filtering/assets/73531266/432c21c9-a5d9-4737-8ab8-cfe34686b2c8
+
