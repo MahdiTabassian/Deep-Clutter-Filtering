@@ -1,4 +1,4 @@
-# Deep Spatiotemporal Clutter Filtering
+# Deep Spatiotemporal Clutter Filtering Network
 ![Unet.pdf](https://github.com/mtab2020/Deep_Clutter_Filtering/files/10893047/Unet.pdf)
 *Architecture of*
 
