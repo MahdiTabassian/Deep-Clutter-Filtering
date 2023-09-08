@@ -1,9 +1,3 @@
-""" 
-
-Prepare data and design the 3D clutter filtering model
-
-
-"""
 import os
 import argparse
 import json
