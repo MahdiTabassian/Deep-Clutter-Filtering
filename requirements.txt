@@ -1,0 +1,4 @@
+numpy
+pandas
+scipy
+tensorflow==2.15.0
