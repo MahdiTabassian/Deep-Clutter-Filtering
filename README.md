@@ -34,6 +34,7 @@ https://github.com/MahdiTabassian/Deep-Clutter-Filtering/assets/73531266/5489ad3
 ## Installation
 
 After cloning the repository, run the following command:
+
 pip install -r requirements.txt
 
 ## Citation
