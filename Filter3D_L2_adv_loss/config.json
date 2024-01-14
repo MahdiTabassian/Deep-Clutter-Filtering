@@ -1,0 +1,50 @@
+{
+    "paths": {
+        "data_path": "",
+        "save_path": ""
+    },
+    "subject_list": ["rca", "ladprox", "laddist", "lcx", "normal"],
+    "CV": {
+        "val_subject_id": 0
+    },
+    "generator_prm": {
+        "input_dim": [128, 128, 50, 1],
+        "n_levels": 4,
+        "n_init_filters": 16,
+        "in_skip": true,
+        "attention": true,
+        "kernel_size": 3,
+        "conv_stride": 1,
+        "upsampling_stride": [2, 2, 1],
+        "pool_size": [2, 2, 1], 
+        "pool_stride": 1,
+        "padding": "same",
+        "act": "linear",
+        "w_g": 0.999
+    },
+    "discriminator_prm": {
+        "input_dim": [128, 128, 50, 1],
+        "n_init_filters": 16,
+        "lvl_blks_config": [3, 4, 6, 3],
+        "kernel_size": 3,
+        "pool_size": 2,
+        "strides": 2,
+        "ConvToFC": [128, 32],
+        "dense_layer_spec": [64, 32, 16],
+        "loss": "binary_crossentropy",
+        "metrics": ["accuracy"],
+        "attention": false,
+        "masked_in": true,
+        "model_name": "disc_ResNet34",
+        "w_d": 0.001
+    },
+    "learning_prm": {
+        "batch_size": 1,
+        "lr": 1e-4,
+        "drp": 0.05,
+        "n_epochs": 10
+    },
+    "tr_phase": true,
+    "model_name": "CF3D_AdvLoss",
+    "weight_name": ""
+}
