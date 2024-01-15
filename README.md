@@ -37,4 +37,9 @@ After cloning the repository, run the following command:
 ```
 pip install -r requirements.txt
 ```
+To train each filter using the synthetic data, provide directory of the data in `config.json` of that filter. Then run the following command after changin directory to the filter directory (e.g. for the 3D filter with L_2 loss):
+```
+python TrainClutterFilter3D.py --config config.json
+```
+
 ## Citation
