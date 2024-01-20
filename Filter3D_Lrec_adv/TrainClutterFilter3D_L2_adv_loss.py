@@ -13,8 +13,8 @@ from tensorflow.keras.optimizers import Adam
 
 code_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(code_dir))
-from Filter3D_L2_loss.utils import *
-from Filter3D_L2_loss.Model_ClutterFilter3D import Unet3D
+from Filter3D_Lrec.utils import *
+from Filter3D_Lrec.Model_ClutterFilter3D import Unet3D
 from DataGen import DataGen
 from Discriminator import discriminator_3D
 from Train_GAN import train_gan
