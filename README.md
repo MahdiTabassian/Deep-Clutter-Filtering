@@ -1,6 +1,6 @@
 # Deep Spatiotemporal Clutter Filtering Network
 ![Unet.pdf](https://github.com/mtab2020/Deep_Clutter_Filtering/files/10893047/Unet.pdf)
-*Architecture of the spatiotemporal clutter filtering network. It is a fully convolutional auto-encoder designed based on the 3D U-Net to generate filtered transthoracic echocardiographic sequences which are coherent both in space and time. An input-output skip connection was added to the auto-encoder for preserving fine image structures, together with the attention gate (AG) modules to aid the network focusing on the clutter zones.*
+*Architecture of the proposed spatiotemporal clutter filtering network. It is a fully convolutional auto-encoder designed based on the 3D U-Net to generate filtered transthoracic echocardiographic (TTE) sequences which are coherent both in space and time. An input-output skip connection was added to the auto-encoder for preserving fine image structures, together with the attention gate (AG) modules to aid the network focusing on the clutter zones.*
 
 ## Results
 ![Filtered_eg.pdf](https://github.com/mtab2020/Deep_Clutter_Filtering/files/10893053/Filtered_eg.pdf)
