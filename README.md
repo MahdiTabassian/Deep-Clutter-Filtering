@@ -45,9 +45,11 @@ python TrainClutterFilter3D.py --config config.json
 
 ## Citation
 Please cite as:
+```
 @article{tabassian2024deep,
   title={Deep Spatiotemporal Clutter Filtering of Transthoracic Echocardiographic Images Using a 3D Convolutional Auto-Encoder},
   author={Tabassian, Mahdi and Queir{\'o}s, Sandro and D'hooge, Jan and others},
   journal={arXiv preprint arXiv:2401.13147},
   year={2024}
 }
+```
