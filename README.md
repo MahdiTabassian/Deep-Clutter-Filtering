@@ -30,13 +30,12 @@ python TrainClutterFilter3D.py --config config.json
 ## Citation
 Please cite as:
 ```
-@misc{tabassian2025deepspatiotemporalclutterfiltering,
-      title={Deep Spatiotemporal Clutter Filtering of Transthoracic Echocardiographic Images: Leveraging Contextual Attention and Residual Learning}, 
-      author={Mahdi Tabassian and Somayeh Akbari and Sandro Queirós and Jan D'hooge},
-      year={2025},
-      eprint={2401.13147},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2401.13147}, 
+@article{tabassian2025deep,
+  title={Deep spatiotemporal clutter filtering of transthoracic echocardiographic images: Leveraging contextual attention and residual learning},
+  author={Tabassian, Mahdi and Akbari, Somayeh and Queir{\'o}s, Sandro and Al Saikhan, Lamia and D’hooge, Jan},
+  journal={Computerized Medical Imaging and Graphics},
+  pages={102665},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
